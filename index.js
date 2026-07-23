@@ -73,7 +73,7 @@ function initialiseTyping() {
     const roleElement = document.getElementById('typed-role');
     if (!roleElement) return;
 
-    const roles = ['Data Engineer', 'Analytics Engineer', 'Web Developer'];
+    const roles = ['Business Intelligence Developer', 'Web Developer'];
     if (prefersReducedMotion) {
         roleElement.textContent = roles[0];
         return;
