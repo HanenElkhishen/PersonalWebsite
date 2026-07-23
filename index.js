@@ -1,9 +1,9 @@
-// ===== EmailJS Configuration =====
+
 const EMAILJS_PUBLIC_KEY = 'XtsiG0iCwWZQBXl9t';
 const EMAILJS_SERVICE_ID = 'service_8ldctpd';
 const EMAILJS_TEMPLATE_ID = 'template_exwqdge';
 
-// Initialize EmailJS
+
 if (window.emailjs) {
     try {
         window.emailjs.init({ publicKey: EMAILJS_PUBLIC_KEY });
@@ -12,7 +12,7 @@ if (window.emailjs) {
     }
 }
 
-// ===== Skills Section Rendering =====
+
 const logos = [
     "bootstrap-48.png",
     "css-logo-64.png",
